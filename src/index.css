@@ -13,3 +13,14 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.card.flipped {
+  transform: rotateY( 180deg );
+}
+
+.cardContainer.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
